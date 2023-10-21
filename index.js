@@ -29,7 +29,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Write kind of license should your project have?',
-        choices: ["None", 'MIT', 'Apache 2.0', "GNU 2.0", "GNU Lesser 2.1", 'GNU 3.0', "GNU Affero 3.0", "BSD 2.0", "BSD 3.0", "Boost Software 1.0", "Creative Commons Zero 1.0", "Eclipse 2.0", "Mozilla 2.0"],
+        choices: ["None", "MIT", "Apache 2.0", "Creative Commons (CC0)", "Eclipse 1.0", "GNU GPL 3.0", "Mozilla 2.0", "Zlib"]
     },
     {
         type: 'input',
@@ -57,7 +57,7 @@ const questions = [
 function writeToFile(data) {
     const fileName = 'README2.md';
     const readmePageContent = generateMarkdown(data);
-    fs.writeFile(fileName, readmePageContent, (err) => err ? console.log(err) : console.log('README successfully creadted!'));
+    fs.writeFile(fileName, readmePageContent, (err) => err ? console.log(err) : console.log('README successfully created!'));
 }
 
 // TODO: Create a function to initialize app
