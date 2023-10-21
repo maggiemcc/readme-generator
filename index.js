@@ -8,7 +8,12 @@ const questions = [
     {
         type: 'input',
         name: 'username',
-        message: 'What is your username?',
+        message: 'What is your GitHub username?',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?',
     },
     {
         type: 'input',
@@ -50,7 +55,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(data) {
-    const fileName = 'README.md';
+    const fileName = 'README2.md';
     const readmePageContent = generateMarkdown(data);
     fs.writeFile(fileName, readmePageContent, (err) => err ? console.log(err) : console.log('README successfully creadted!'));
 }
