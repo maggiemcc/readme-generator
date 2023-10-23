@@ -12,7 +12,7 @@
 This project is meant to help developers create a professional README file for their projects more quickly.
 
 ## Installation
-To install necessary dependencies, run the following command:  
+To install necessary dependencies, run the following command in the project terminal:  
    1. Clone the repo  
     ```git clone git@github.com:your-username/readme-generator.git```
   2. Install and initialize NPM packages  
@@ -20,11 +20,16 @@ To install necessary dependencies, run the following command:
     ```npm init -y```
 
 ## Usage
-   1. Run node
+   1. To start this project you will need to run node in the project terminal:  
    ```node index.js```
-   2. Answer each of the questions in the terminal to have a readme file generated.  
-   EX: ```What is your GitHub username?```
-   3. You will be able to find your newly created README file under the folder name of "user-readme".
+   2. You will be prompted with questions about your project. Answer each of the questions in the terminal to have a readme file generated.  
+   EX: 
+   ```diff 
+  What is your GitHub username?  
+  your-username
+   ```
+
+   3. Once all questions are answered, you will be able to find your newly created README file under the folder name of "user-readme".
 
 ## Contributing
 1. Fork the Project
