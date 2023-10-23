@@ -3,11 +3,10 @@
 
 ## Table of Contents
 - [Description](#description)
-- [Link](#link)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Acceptance Criteria](#acceptance-criteria)
+- [Walkthrough Video & Screenshot](#walkthrough-video--screenshot)
 
 ## Description
 This project is meant to help developers create a professional README file for their projects more quickly.
@@ -37,6 +36,6 @@ To install necessary dependencies, run the following command:
 ```git push origin feature/featureName```
 5. Open a Pull Request
 
-## Screenshot / Video
+## Walkthrough Video & Screenshot
 Click the image below to watch a walkthrough:  
 [![Watch my How to Video](./screenshot.png)](https://watch.screencastify.com/v/wWFU9PLmhhqLwQ0WYrM4)
