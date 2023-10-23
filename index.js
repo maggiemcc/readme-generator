@@ -54,9 +54,9 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(data) {
+function writeToFile(answers, licenseBadge, licenseUrl) {
     const fileName = 'README.md';
-    const readmePageContent = generateMarkdown(data);
+    const readmePageContent = generateMarkdown(answers, licenseBadge, licenseUrl);
     fs.writeFile(`./user-readme/${fileName}`, readmePageContent, (err) => err ? console.log(err) : console.log('README successfully created!'));
 }
 
@@ -64,7 +64,30 @@ function writeToFile(data) {
 function init() {
     inquirer.prompt(questions)
     .then((answers) => {
-        writeToFile(answers);
+        if (answers.license == "MIT") {
+            licenseBadge = "MIT-yellow";
+            licenseUrl = "MIT";
+          } else if (answers.license == "Apache 2.0") {
+            licenseBadge = "Apache_2.0-blue";
+            licenseUrl = "Apache-2.0";
+          } else if (answers.license == "Zlib") {
+            licenseBadge = "Zlib-lightgrey";
+            licenseUrl = "zlib";
+          } else if (answers.license == "Mozilla 2.0") {
+            licenseBadge = "MPL_2.0-brightgreen";
+            licenseUrl = "MPL-2.0";
+          } else if (answers.license == "Eclipse 1.0") {
+            licenseBadge = "EPL_1.0-red";
+            licenseUrl = "EPL-1.0";
+          } else if (answers.license == "GNU GPL 3.0") {
+            licenseBadge = "GPLv3-blue";
+            licenseUrl = "gpl-3.0";
+          } else if (answers.license == "None"){
+            licenseBadge = "";
+            licenseUrl = "";
+          };
+          console.log(licenseBadge, licenseUrl)
+        writeToFile(answers, licenseBadge, licenseUrl);
     })
 }
 
