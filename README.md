@@ -25,7 +25,8 @@ To install necessary dependencies, run the following command:
    ```node index.js```
 2. Answer each of the questions in the terminal to have a readme file generated.  
    EX: ```What is your GitHub username?```
+3. You will be able to find your newly created README file under the folder name of "user-readme".
 
 ## Screenshot / Video
 Click the image below to watch a walkthrough:  
-[![Watch my How to Video](./screenshot.png)](https://drive.google.com/file/d/1E6viq35Fzdc7gH1cz-Iht-NooRn0ljCd/view?usp=sharing)
+[![Watch my How to Video](./screenshot.png)](https://watch.screencastify.com/v/wWFU9PLmhhqLwQ0WYrM4)

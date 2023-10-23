@@ -67,8 +67,7 @@ function generateMarkdown(data) {
 
   ## License
   ${renderLicenseBadge(data.license)}  
-  This project is licensed under:  
-  ${renderLicenseLink(data.license)}  
+  This project is licensed under: ${renderLicenseLink(data.license)}  
 
   ## Installation
   To install necessary dependencies, run the following command:  

@@ -11,5 +11,6 @@
   "dependencies": {
     "inquirer": "^8.2.4"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {}
 }

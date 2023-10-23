@@ -57,7 +57,7 @@ const questions = [
 function writeToFile(data) {
     const fileName = 'README.md';
     const readmePageContent = generateMarkdown(data);
-    fs.writeFile(fileName, readmePageContent, (err) => err ? console.log(err) : console.log('README successfully created!'));
+    fs.writeFile(`./user-readme/${fileName}`, readmePageContent, (err) => err ? console.log(err) : console.log('README successfully created!'));
 }
 
 // TODO: Create a function to initialize app
