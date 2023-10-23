@@ -14,13 +14,13 @@ This project is meant to help developers create a professional README file for t
 
 ## Installation
 To install necessary dependencies, run the following command:  
-  1. Clone the repo
+   1. Clone the repo  
     ```
     git clone git@github.com:your-username/readme-generator.git
     ```
-  2. Install and initialize NPM packages
+  2. Install and initialize NPM packages  
     ```
-    npm install inquirer@8.2.4
+    npm install inquirer@8.2.4  
     npm init -y
     ```
 
