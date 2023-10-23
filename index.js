@@ -86,7 +86,7 @@ function init() {
             licenseBadge = "";
             licenseUrl = "";
           };
-          console.log(licenseBadge, licenseUrl)
+
         writeToFile(answers, licenseBadge, licenseUrl);
     })
 }

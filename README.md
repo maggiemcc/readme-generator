@@ -1,5 +1,4 @@
 # Professional README Generator
-
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 ## Table of Contents
@@ -7,6 +6,7 @@
 - [Link](#link)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Contributing](#contributing)
 - [Acceptance Criteria](#acceptance-criteria)
 
 ## Description
@@ -21,11 +21,21 @@ To install necessary dependencies, run the following command:
     ```npm init -y```
 
 ## Usage
-1. Run node:  
+   1. Run node
    ```node index.js```
-2. Answer each of the questions in the terminal to have a readme file generated.  
+   2. Answer each of the questions in the terminal to have a readme file generated.  
    EX: ```What is your GitHub username?```
-3. You will be able to find your newly created README file under the folder name of "user-readme".
+   3. You will be able to find your newly created README file under the folder name of "user-readme".
+
+## Contributing
+1. Fork the Project
+2. Create your Feature Branch  
+```git checkout -b feature/featureName```
+3. Commit your Changes  
+```git commit -m 'Add some featureName'```
+4. Push to the Branch  
+```git push origin feature/featureName```
+5. Open a Pull Request
 
 ## Screenshot / Video
 Click the image below to watch a walkthrough:  
