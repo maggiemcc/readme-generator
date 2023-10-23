@@ -21,6 +21,8 @@ To install necessary dependencies, run the following command:
   2. Install and initialize NPM packages  
     ```
     npm install inquirer@8.2.4  
+    ```  
+    ``` 
     npm init -y
     ```
 
