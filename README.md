@@ -21,8 +21,10 @@ To install necessary dependencies, run the following command:
     ```npm init -y```
 
 ## Usage
-Run node:  
+1. Run node:  
    ```node index.js```
+2. Answer each of the questions in the terminal to have a readme file generated.  
+   EX: ```What is your GitHub username?```
 
 ## Screenshot / Video
 Click the image below to watch a walkthrough:  
