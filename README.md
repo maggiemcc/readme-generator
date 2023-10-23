@@ -15,22 +15,15 @@ This project is meant to help developers create a professional README file for t
 ## Installation
 To install necessary dependencies, run the following command:  
    1. Clone the repo  
-    ```
-    git clone git@github.com:your-username/readme-generator.git
-    ```
+    ```git clone git@github.com:your-username/readme-generator.git```
   2. Install and initialize NPM packages  
-    ```
-    npm install inquirer@8.2.4  
-    ```  
-    ``` 
-    npm init -y
-    ```
+    ```npm install inquirer@8.2.4```  
+    ```npm init -y```
 
 ## Usage
-   1. Run node:
-   ```
-   node index.js
-   ```
+Run node:  
+   ```node index.js```
 
 ## Screenshot / Video
-![](/assets/screenshot.png)
+Click the image below to watch a walkthrough:  
+[![Watch my How to Video](./screenshot.png)](https://drive.google.com/file/d/1E6viq35Fzdc7gH1cz-Iht-NooRn0ljCd/view?usp=sharing)

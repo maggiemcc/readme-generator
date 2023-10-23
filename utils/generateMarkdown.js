@@ -72,11 +72,11 @@ function generateMarkdown(data) {
 
   ## Installation
   To install necessary dependencies, run the following command:  
-  *${data.installation}*
+  ${data.installation}
 
   ## Testing
   To run tests, run the following command:  
-  *${data.testing}*
+  ${data.testing}
 
   ## Usage
   ${data.usage}
