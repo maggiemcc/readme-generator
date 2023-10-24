@@ -83,8 +83,8 @@ function init() {
             licenseBadge = "GPLv3-blue";
             licenseUrl = "gpl-3.0";
           } else if (answers.license == "None"){
-            licenseBadge = "";
-            licenseUrl = "";
+            licenseBadge = "None";
+            licenseUrl = "None";
           };
 
         writeToFile(answers, licenseBadge, licenseUrl);
